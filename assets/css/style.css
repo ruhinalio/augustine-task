@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.header .container {
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header .container h1 {
+  font-size: x-large;
+  font-weight: 400;
+}
+.header .container .nav-links ul {
+  display: flex;
+  gap: 0 30px;
+}
+.header .container .nav-links ul li {
+  padding-bottom: 0.5rem;
+}
+.header .container .nav-links ul li:hover {
+  border-bottom: 1px solid #000;
+}
+.header .container .nav-links ul li a {
+  color: #000;
+}
+.header .container .menu {
+  display: none;
+}
+
+.layout {
+  background-color: #000;
+  padding: 0 2rem;
+  margin-top: 3.8rem;
+}
+.layout .container h4 {
+  color: #fff;
+  font-size: larger;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.7rem 0;
+}
+.layout .container h4 a {
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.refresh {
+  padding: 0 2rem;
+  background-color: #451314;
+}
+.refresh .container {
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  align-items: center;
+}
+.refresh .container-left img {
+  height: 600px;
+}
+.refresh .container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+.refresh .container-right h2 {
+  font-size: xx-large;
+  font-weight: 700;
+  color: #fff;
+}
+.refresh .container-right p {
+  font-size: small;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.refresh .container-right button {
+  width: 150px;
+  padding: 0.7rem 1.4rem;
+  border: none;
+}
+
+.fall {
+  padding: 4rem 2rem;
+}
+.fall .container {
+  display: flex;
+  gap: 0 10px;
+  align-items: center;
+}
+.fall .container-left {
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.fall .container-left h2 {
+  font-size: xx-large;
+  font-weight: 400;
+}
+.fall .container-left p {
+  font-size: small;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.fall .container-left button {
+  width: 150px;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+.fall .container-left button:hover {
+  opacity: 0.7;
+}
+.fall .container-center {
+  display: flex;
+  gap: 0 10px;
+}
+.fall .container-center img {
+  width: 300px;
+  height: 512px;
+}
+.fall .container-right img {
+  width: 300px;
+  height: 512px;
+}
+
+.inspire {
+  padding: 0 2rem;
+  background-image: url(../images/inspire.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inspire .container h2 {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  padding: 10rem 0;
+}
+
+.selling .container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 1rem;
+  flex-wrap: wrap;
+  gap: 20px 0;
+}
+.selling .container-side {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+.selling .container-side img {
+  width: 100%;
+}
+.selling .container-side h2 {
+  font-size: xx-large;
+  font-weight: 700;
+}
+.selling .container-side p {
+  font-size: small;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.selling .container-side button {
+  width: 187px;
+  height: 53px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.never {
+  background-image: url(../images/never-miss.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.never .container {
+  padding: 4rem 2rem;
+}
+.never .container .never-side {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+}
+.never .container .never-side h2 {
+  max-width: 333px;
+  font-size: xx-large;
+  font-weight: 700;
+  color: #fff;
+}
+.never .container .never-side h5 {
+  max-width: 796px;
+  color: #fff;
+  font-size: 50px;
+}
+.never .container .never-side input {
+  width: 496px;
+  height: 48px;
+  padding: 0.7rem 1rem;
+}
+.never .container .never-side button {
+  width: 92px;
+  height: 46px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+.never .container .never-side button:hover {
+  opacity: 0.7;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4rem 2rem;
+}
+.footer .container-left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+}
+.footer .container-left ul li a {
+  font-size: medium;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+.footer .container-right {
+  padding-right: 7rem;
+}
+.footer .container-right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer .container-right ul h2 {
+  font-size: x-large;
+  font-weight: 400;
+}
+.footer .container-right ul li a {
+  font-size: medium;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header .container h1 {
+    font-size: large;
+  }
+  .header .container .nav-links {
+    display: none;
+  }
+  .header .container .menu {
+    display: block;
+  }
+  .layout .container h4 {
+    font-size: medium;
+  }
+  .refresh {
+    margin: 0 auto;
+  }
+  .refresh .container {
+    flex-direction: column-reverse;
+    width: 414px;
+    height: 800px;
+  }
+  .fall .container {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+  .fall .container-center {
+    flex-direction: column-reverse;
+    gap: 20px 0;
+  }
+  .fall .container img {
+    width: 310px;
+  }
+  .never .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .footer .container {
+    flex-direction: column;
+    gap: 20px 0;
+    margin: 0 5rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .refresh .container {
+    padding: 0 3rem;
+  }
+  .refresh .container-left {
+    width: 400px;
+  }
+  .refresh .container-left img {
+    width: 100%;
+  }
+  .never .container .never-side h2 {
+    width: 500px;
+    font-size: x-large;
+  }
+  .never .container .never-side h5 {
+    width: 400px;
+    font-size: xx-large;
+  }
+  .never .container .never-side input {
+    width: 300px;
+  }
+  .footer .container-left ul li a {
+    font-size: small;
+  }
+  .footer .container-right ul h2 {
+    font-size: x-large;
+  }
+  .footer .container-right ul li a {
+    font-size: small;
+  }
+  .footer .container-right .social img {
+    width: 18px;
+  }
+}/*# sourceMappingURL=style.css.map */
