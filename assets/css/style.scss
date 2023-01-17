@@ -98,6 +98,9 @@
                                     width: 150px;
                                     padding: .7rem 1.4rem;
                                     border: none;
+                                    &:hover {
+                                        opacity: .7;
+                                    }
                                 }
                             }
                         }
@@ -159,9 +162,9 @@
                         background-size: cover;
                         .container {
                             h2 {
-                                font-size: xx-large;
+                                font-size: 50px;
                                 text-align: center;
-                                font-weight: 700;
+                                font-weight: 400;
                                 color: #fff;
                                 padding: 10rem 0;
                             }
@@ -198,6 +201,9 @@
                                     border: none;
                                     background-color: #000;
                                     color: #fff;
+                                    &:hover {
+                                        opacity: .7;
+                                    }
                                 }
                             }
                         }

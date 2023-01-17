@@ -96,6 +96,9 @@
   padding: 0.7rem 1.4rem;
   border: none;
 }
+.refresh .container-right button:hover {
+  opacity: 0.7;
+}
 
 .fall {
   padding: 4rem 2rem;
@@ -151,9 +154,9 @@
   background-size: cover;
 }
 .inspire .container h2 {
-  font-size: xx-large;
+  font-size: 50px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   padding: 10rem 0;
 }
@@ -189,6 +192,9 @@
   border: none;
   background-color: #000;
   color: #fff;
+}
+.selling .container-side button:hover {
+  opacity: 0.7;
 }
 
 .never {
